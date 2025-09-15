@@ -1,0 +1,23 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model artifacts
+artifacts/
+*.joblib
+*.pth
+
+# Ignore datasets (optional, unless you need to share them)
+data/*.csv
+!data/sample_submission.csv
+
+# Ignore system/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
